@@ -3,8 +3,6 @@ package Collections.List.Desafio;
 import java.util.ArrayList;
 import java.util.List;
 
-import Collections.List.ListaTarefas;
-
 public class CarrinhoDeCompras {
     private List<Item> itens;
 

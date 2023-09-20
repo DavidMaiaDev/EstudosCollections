@@ -54,6 +54,22 @@ public Livro pesquisaPorTitulo(String titulo){
 
 }
 
+public static void main(String [] args){
+    CatalagoLivros livros = new CatalagoLivros();
+    livros.adicionarLivro("A bela e a fera", "Severino", 2023);
+    livros.adicionarLivro("O dilema do porco espinho", "LK", 2021);
+    livros.adicionarLivro("Pandemia de Gripe", "Marcos Túlio", 2014);
+    livros.adicionarLivro("O pequeno P", "Maria Antoônia", 2011);
+    livros.adicionarLivro("Manga rosa", "Severo", 2016);
+    livros.adicionarLivro("PC novo é lindo", "Edna Freire", 2016);
+    livros.adicionarLivro("A bela e a fera", "Severino", 2023);
+
+    System.out.println(livros.pesquisarPorAutor("Severino"));
+    System.out.println(livros.pesquisaPorTitulo("Manga Rosa"));
+    System.out.println(livros.pesquisaPorIntervaloAnos(2020, 2024));
+
+}
+
 
 
 
