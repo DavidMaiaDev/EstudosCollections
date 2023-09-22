@@ -1,4 +1,4 @@
-package Collections.List.Explicações;
+package Collections.List.Explicacoes.OperacoesBasicas;
 
 public class Tarefa {
     private String descricao;

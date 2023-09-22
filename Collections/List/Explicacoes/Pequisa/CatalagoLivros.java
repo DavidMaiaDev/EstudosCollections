@@ -1,4 +1,4 @@
-package Collections.List.Explicações;
+package Collections.List.Explicacoes.Pequisa;
 
 import java.util.ArrayList;
 import java.util.List;

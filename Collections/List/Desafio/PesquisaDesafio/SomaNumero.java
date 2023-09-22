@@ -1,4 +1,4 @@
-package Collections.List.Desafio;
+package Collections.List.Desafio.PesquisaDesafio;
 
 import java.util.ArrayList;
 import java.util.List;
